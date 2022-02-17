@@ -20,7 +20,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     huawei: false,
-    nav: [
+    nav: [  // 右上角导航栏
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'Notes', link: '/note/', icon: 'reco-document' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
@@ -28,7 +28,7 @@ module.exports = {
       { text: 'About', link: '/about/', icon: 'reco-account' },
       { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' }
     ],
-    friendLink: [
+    friendLink: [  // 友联
       {
         title: '午后南杂',
         desc: 'Enjoy when you can, and endure when you must.',
@@ -67,7 +67,7 @@ module.exports = {
     subSidebar: 'auto',
     sidebarDepth: 1,
     displayAllHeaders: false,
-    sidebar: {
+    sidebar: {  // 侧边栏
       '/note/': [
         {
           title: 'HTML5',
