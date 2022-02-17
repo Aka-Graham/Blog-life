@@ -1,8 +1,10 @@
 module.exports = {
   dest: 'blog',
   theme: 'reco',
-  title: 'latte and cat',
-  description: 'study programs and record life',
+  title: '拉别人的模板，还没开始更新！',
+  //vbke&jdwf
+  //study programs and record life
+  description: '从别人那拉的模板还没开始更新！！！',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -136,7 +138,7 @@ module.exports = {
           position: 'fixed',
           right: '70px',
           bottom: '50px',
-          opacity: '0.9' 
+          opacity: '0.9'
         },
         messageStyle: {
           position: 'fixed',
