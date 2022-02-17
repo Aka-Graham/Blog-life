@@ -104,7 +104,7 @@ module.exports = {
         {
           title: 'web',
           collapsable: true,
-          children: ['npm/2021/101001']
+          children: ['web/2021/101001']
         }
 
         // {
