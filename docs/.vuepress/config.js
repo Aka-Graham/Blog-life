@@ -1,8 +1,10 @@
 module.exports = {
   dest: 'blog',
   theme: 'reco',
-  title: 'latte and cat',
-  description: 'study programs and record life',
+  title: '拉别人的模板，还没开始更新！',
+  //vbke&jdwf
+  //study programs and record life
+  description: '从别人那拉的模板还没开始更新！！！',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
@@ -18,7 +20,7 @@ module.exports = {
   themeConfig: {
     type: 'blog',
     huawei: false,
-    nav: [
+    nav: [  // 右上角导航栏
       { text: 'Home', link: '/', icon: 'reco-home' },
       { text: 'Notes', link: '/note/', icon: 'reco-document' },
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
@@ -26,7 +28,7 @@ module.exports = {
       { text: 'About', link: '/about/', icon: 'reco-account' },
       { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' }
     ],
-    friendLink: [
+    friendLink: [  // 友联
       {
         title: '午后南杂',
         desc: 'Enjoy when you can, and endure when you must.',
@@ -65,7 +67,7 @@ module.exports = {
     subSidebar: 'auto',
     sidebarDepth: 1,
     displayAllHeaders: false,
-    sidebar: {
+    sidebar: {  // 侧边栏
       '/note/': [
         {
           title: 'HTML5',
@@ -136,7 +138,7 @@ module.exports = {
           position: 'fixed',
           right: '70px',
           bottom: '50px',
-          opacity: '0.9' 
+          opacity: '0.9'
         },
         messageStyle: {
           position: 'fixed',
