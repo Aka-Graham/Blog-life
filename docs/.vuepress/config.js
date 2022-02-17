@@ -1,7 +1,9 @@
+// noinspection JSStringConcatenationToES6Template
+
 module.exports = {
   dest: 'blog',
   theme: 'reco',
-  title: '拉别人的模板，还没开始更新！',
+  title: 'vbke&jdwf',
   //vbke&jdwf
   //study programs and record life
   description: '从别人那拉的模板还没开始更新！！！',
@@ -70,49 +72,85 @@ module.exports = {
     sidebar: {  // 侧边栏
       '/note/': [
         {
-          title: 'HTML5',
+          title: 'git',
           collapsable: true,
-          children: ['html5/HTML5的语义元素', 'html5/HTML5多媒体标签', 'html5/HTML5表单元素', 'html5/HTML5中的API', 'html5/Canvas']
+          children: ['git/2021/071101', 'git/2021/071601', 'git/2021/091301']
         },
         {
-          title: 'CSS',
+          title: 'javascript',
           collapsable: true,
-          children: ['css/css3新特性', 'css/css3Flip']
+          children: ['javascript/2021/071701']
         },
         {
-          title: 'JS',
+          title: 'Linux',
           collapsable: true,
-          children: ['js/js数据类型', 'js/js对象', 'js/js继承', 'js/js原型链、闭包', 'js/js函数的四种调用方式']
+          children: ['Linux/2021/071601']
         },
         {
-          title: 'Vue.js',
+          title: 'mysql',
           collapsable: true,
-          children: ['Vue/Vue基础笔记', 'Vue/Vue组件']
+          children: ['mysql/2021/091001']
         },
         {
-          title: '前端单元测试',
+          title: 'node',
           collapsable: true,
-          children: ['fe-unit-test/chai', 'fe-unit-test/mocha', 'fe-unit-test/vueTestUtils']
+          children: ['node/2021/101001']
         },
         {
-          title: '微信小程序',
+          title: 'npm',
           collapsable: true,
-          children: ['wechat-mini-program/初识微信小程序']
+          children: ['npm/2021/071001']
+        },
+        {
+          title: 'web',
+          collapsable: true,
+          children: ['npm/2021/101001']
         }
+
+        // {
+        //   title: 'HTML5',
+        //   collapsable: true,
+        //   children: ['html5/HTML5的语义元素', 'html5/HTML5多媒体标签', 'html5/HTML5表单元素', 'html5/HTML5中的API', 'html5/Canvas']
+        // },
+        // {
+        //   title: 'CSS',
+        //   collapsable: true,
+        //   children: ['css/css3新特性', 'css/css3Flip']
+        // },
+        // {
+        //   title: 'JS',
+        //   collapsable: true,
+        //   children: ['js/js数据类型', 'js/js对象', 'js/js继承', 'js/js原型链、闭包', 'js/js函数的四种调用方式']
+        // },
+        // {
+        //   title: 'Vue.js',
+        //   collapsable: true,
+        //   children: ['Vue/Vue基础笔记', 'Vue/Vue组件']
+        // },
+        // {
+        //   title: '前端单元测试',
+        //   collapsable: true,
+        //   children: ['fe-unit-test/chai', 'fe-unit-test/mocha', 'fe-unit-test/vueTestUtils']
+        // },
+        // {
+        //   title: '微信小程序',
+        //   collapsable: true,
+        //   children: ['wechat-mini-program/初识微信小程序']
+        // }
       ]
     },
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
-    author: '橘子',
+    author: 'Aka.Graham',
     authorAvatar: 'https://photo.smallsunnyfox.com/images/blog/head.png',
     // 备案号
-    record: '豫ICP备19035192号',
-    recordLink: 'https://beian.miit.gov.cn/',
-    cyberSecurityRecord: '豫公网安备41172602000151号',
-    cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41172602000151',
+    // record: '豫ICP备19035192号',
+    // recordLink: 'https://beian.miit.gov.cn/',
+    // cyberSecurityRecord: '豫公网安备41172602000151号',
+    // cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=41172602000151',
     // 项目开始时间
-    startYear: '2019',
+    startYear: '2022',
     /**
      * valine 设置 (if you need valine comment )
      */
