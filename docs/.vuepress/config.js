@@ -28,7 +28,7 @@ module.exports = {
       { text: 'TimeLine', link: '/timeline/', icon: 'reco-date' },
       { text: 'PhotoAlbum', link: 'https://photo.smallsunnyfox.com/', icon: 'reco-blog' },
       { text: 'About', link: '/about/', icon: 'reco-account' },
-      { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' }
+      // { text: 'GitHub', link: 'https://github.com/smallsunnyfox', icon: 'reco-github' }
     ],
     friendLink: [  // 友联
       {
