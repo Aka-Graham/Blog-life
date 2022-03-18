@@ -1,4 +1,4 @@
-# latte and cat
+# vbke & jdwf
 
 > study programs and record life
 
@@ -20,5 +20,6 @@ categories:
 ```
 
 # dev
-
 需要拉取reco主题代码到.vuepress/theme
+
+直接改
