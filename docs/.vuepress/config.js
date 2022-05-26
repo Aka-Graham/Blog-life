@@ -77,21 +77,6 @@ module.exports = {
           children: ['git/2021/071101', 'git/2021/071601', 'git/2021/091301']
         },
         {
-          title: 'javascript',
-          collapsable: true,
-          children: ['javascript/2021/071701']
-        },
-        {
-          title: 'Linux',
-          collapsable: true,
-          children: ['Linux/2021/071601']
-        },
-        {
-          title: 'mysql',
-          collapsable: true,
-          children: ['mysql/2021/091001']
-        },
-        {
           title: 'node',
           collapsable: true,
           children: ['node/2021/101001']
